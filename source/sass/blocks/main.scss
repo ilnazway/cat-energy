@@ -1,0 +1,23 @@
+.main-button {
+    background: $basic_green;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 18px;
+    color: $basic_white;
+    padding: 11px 12px 11px;
+    display: block;
+    &:hover {
+        background: $basic_green-2;
+    }
+    &:active {
+        color: rgba($basic_white, 0.5%);
+    }
+}
+
+.main__choose-program {
+    margin-bottom: 22px;
+}
+
+.main__catalog {
+    margin-bottom: 27px;
+}

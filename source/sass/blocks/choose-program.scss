@@ -1,0 +1,26 @@
+.choose-program {
+    background-image: url("../../img/index-background-mobile@1x.jpg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 27px 20px 0;
+    text-align: center;
+    color: $basic_white;
+}
+
+.choose-program__title {
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.choose-program__subtitle {
+    text-transform: uppercase;
+    margin-bottom: 29px;
+}
+
+.choose-program__image {
+    display: block;
+    margin-bottom: 3px;
+}
