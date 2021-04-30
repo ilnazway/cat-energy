@@ -1,0 +1,25 @@
+.map__wrapper {
+    display: grid;
+    grid-template-columns: 140px 140px;;
+    margin-bottom: 22px;
+    padding: 0 19px;
+}
+
+.map__invite {
+    color: #111111;
+    line-height: 18px;
+    font-size: 16px;
+    text-transform: uppercase;
+    &::first-line {
+        line-height: 27px;
+        vertical-align: top;
+    }
+}
+
+.map__adress {
+    line-height: 20px;
+    color: $special_dark-grey;
+    font-family: "Arial";
+    font-style: normal;
+    align-self: flex-end;
+}

@@ -1,0 +1,19 @@
+.example {
+    padding: 27px 21px 25px 20px;
+    background: #EAEAEA;
+}
+
+.example__title {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 33px;
+}
+
+.example__description {
+    font-family: "Arial";
+    line-height: 18px;
+    color: $special-dark-grey;
+    margin-bottom: 25px;
+}

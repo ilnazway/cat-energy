@@ -1,0 +1,55 @@
+.how-works {
+    padding: 0 20px;
+}
+
+.how-works__title {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 38px;
+}
+
+.definitions {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    align-items: center;
+}
+
+.definitions__icon {
+    height: 60px;
+    width: 60px;
+    background-color: $basic_green;
+    &::before {
+        content: "";
+        width: 60px;
+        height: 60px;
+        position: absolute;
+    }
+    &--leaf::before {
+        background: url("../../img/advantage-leaf@2x.png") top 50% left 50% no-repeat;
+        background-size: 50px 50px;
+    }
+    &--powder::before {
+        background: url("../../img/advantage-powder@2x.png") top 50% left 50% no-repeat;
+        background-size: 50px 50px;
+    }
+    &--dining::before {
+        background: url("../../img/advantage-dining@2x.png") top 50% left 50% no-repeat;
+        background-size: 50px 50px;
+    }
+    &--clock::before {
+        background: url("../../img/advantage-clock@2x.png") top 50% left 50% no-repeat;
+        background-size: 50px 50px;
+    }
+}
+
+.definitions__description {
+    margin-left: 0;
+    font-family: "Arial";
+    line-height: 18px;
+    color: $special-dark-grey;
+}
